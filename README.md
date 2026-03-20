@@ -1,13 +1,13 @@
 # 🌡 Advanced Temperature Converter
 
-A simple and interactive web application that converts temperature from **Kelvin** to **Celsius, Fahrenheit, and Newton** in real-time.
+A simple and interactive web application that converts temperature from **Given Temperature** to **Celsius, Fahrenheit, and Newton** in real-time.
 
 ---
 
 ## 🚀 Features
 
 * 🔄 Instant temperature conversion as you type
-* 🌡 Converts Kelvin → Celsius, Fahrenheit, Newton
+* 🌡 Converts Given Temperature → Celsius, Fahrenheit, Newton
 * 🎨 Clean and modern UI with hover effects
 * ⚡ Lightweight and fast (no external libraries)
 * 📱 Responsive design (works on most screen sizes)
@@ -35,11 +35,11 @@ A simple and interactive web application that converts temperature from **Kelvin
 
 ## ⚙️ How It Works
 
-1. User enters temperature in **Kelvin**
+1. User enters temperature in **Given Temperature**
 2. JavaScript listens for input changes
 3. Values are converted using formulas:
 
-   * Celsius = Kelvin − 273
+   * Celsius = Given Temperature − 273
    * Fahrenheit = (Celsius × 9/5) + 32
    * Newton = Celsius × 33/100
 4. Results are displayed instantly on the screen
@@ -82,7 +82,7 @@ A simple and interactive web application that converts temperature from **Kelvin
 
 * Add more temperature units (Rankine, Réaumur, etc.)
 * Add dark mode 🌙
-* Add unit selection instead of fixed Kelvin input
+* Add unit selection instead of fixed Given Temperature input
 * Improve accessibility
 
 ---
